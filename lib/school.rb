@@ -6,7 +6,7 @@ class School
     @name = name
     @roster = {}
   end
-  
+
   def add_student(student, level)
     roster[level] || = []
     roster[level] << student
@@ -17,10 +17,7 @@ class School
       if x == level
         return y
       end
-  end 
+  end
 
 
 end
-
-
-
