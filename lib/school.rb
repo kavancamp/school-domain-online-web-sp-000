@@ -1,5 +1,6 @@
 class School
-  attr_accessor :name, :roster, :grade
+  attr_accessor :name, :roster, 
+
 
 
   def initialize(name)
@@ -11,7 +12,9 @@ class School
     roster[level] ||= []
     roster[level] << student
   end
-
+  def grade(grade)
+    @grade
+  end
     def sort
   nu_hash = {}
   roster.each do |x, y|
