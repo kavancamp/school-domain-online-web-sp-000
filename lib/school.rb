@@ -21,6 +21,3 @@ class School
 end
 
 end
-
-
-
